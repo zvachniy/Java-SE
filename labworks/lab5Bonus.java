@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class lab3Bonus {
+public class lab5Bonus {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);    //инициализируется для приблыды ввода консоли
         System.out.print("Введите верхний предел для проверки на палиндромы: ");

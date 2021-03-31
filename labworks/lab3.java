@@ -2,25 +2,22 @@ import java.util.Scanner;   //приблуда для ввода в консол
 
 public class lab3 {
     public static void main(String[] args) {
+        //string WeekDay = new WeekDay(System.in);
         Scanner in = new Scanner(System.in);    //инициализируется для приблыды ввода консоли
-        System.out.print("Введите пятнизнычное число для проверки на палиндром: ");
-        int num = in.nextInt();   //получаем число
-        int num1 = num / 1000;
-        int num2 = num % 100;
-        boolean c1 = false;
-        boolean c2 = false;
-        if (num1 / 10 == num2 % 10) {
-            System.out.print("первое и последнее совпадает ---");
-            c1 = true;
+        String[] arrayDays = {"Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"}; //создаём и объявляем массив дней недели
+        System.out.println("Понедельник - 1, Вторник - 2 и т.д.");
+        System.out.print("Введите номер дня: ");
+        int num = in.nextInt();
+        //не забывай про break
+        switch (num) {
+            default -> System.out.println("Error");
+            case 1 -> System.out.println(arrayDays[0]);
+            case 2 -> System.out.println(arrayDays[1]);
+            case 3 -> System.out.println(arrayDays[2]);
+            case 4 -> System.out.println(arrayDays[3]);
+            case 5 -> System.out.println(arrayDays[4]);
+            case 6 -> System.out.println(arrayDays[5]);
+            case 7 -> System.out.println(arrayDays[6]);
         }
-        System.out.println("Сравниваем первое и последнее цифры " + num1 / 10 + " " + num2 % 10);
-        if (num1 % 10 == num2 / 10) {
-            System.out.print("второе и предпоследнее совпадает ---");
-            c2 = true;
-        }
-        System.out.println("Сравниваем второе и предпоследнее цифры " + num1 % 10 + " " + num2 / 10);
-        System.out.println(num1 + " " + num2);
-        if (c1 && c2) System.out.println("PALINDROME");
-        else System.out.println("AIN`T PALINDROME");
     }
 }
