@@ -24,4 +24,4 @@ hs_err_pid*
 #VSCode IDE
 .vscode
 #Idea
-.iml
+*.iml
