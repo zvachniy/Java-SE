@@ -1,4 +1,4 @@
-package spbu.works.cpsmi;
+package spbuWorks.cpsmi;
 
 public class Mineral {
     protected int miningComplexity;

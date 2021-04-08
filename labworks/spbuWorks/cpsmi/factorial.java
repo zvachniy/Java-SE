@@ -1,5 +1,5 @@
 
-package spbu.works.cpsmi;
+package spbuWorks.cpsmi;
 
 public class factorial {
     final static int N = 100;

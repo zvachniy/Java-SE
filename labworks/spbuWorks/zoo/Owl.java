@@ -1,4 +1,4 @@
-package spbu.works.zoo;
+package spbuWorks.zoo;
 
 public class Owl extends Animal {
     public Owl(String name) {

@@ -1,4 +1,4 @@
-package spbu.works.cpsmi;
+package spbuWorks.cpsmi;
 
 public class Coal extends Mineral {
     private static int worldCapacity=400;

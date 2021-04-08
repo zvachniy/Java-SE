@@ -1,4 +1,4 @@
-package spbu.works.cpsmi;
+package spbuWorks.cpsmi;
 
 public class Hello1 {
     public static void main(String[] args) {

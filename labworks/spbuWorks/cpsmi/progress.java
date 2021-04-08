@@ -1,4 +1,4 @@
-package spbu.works.cpsmi;
+package spbuWorks.cpsmi;
 
 public class progress {
     private static final int N = 10;

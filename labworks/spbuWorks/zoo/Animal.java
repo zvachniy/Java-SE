@@ -1,4 +1,4 @@
-package spbu.works.zoo;
+package spbuWorks.zoo;
 
 public class Animal {
     private String name;
