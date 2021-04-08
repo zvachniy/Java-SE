@@ -1,3 +1,5 @@
+package labs;
+
 import java.util.Scanner;   //приблуда для ввода в консоль
 
 public class lab3 {

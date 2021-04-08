@@ -1,3 +1,5 @@
+package labs;
+
 import java.util.Scanner;
 
 public class lab5Bonus {
