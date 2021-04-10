@@ -1,3 +1,5 @@
+package spbuWorks;
+
 import java.util.Random;
 
 public class gym1 {

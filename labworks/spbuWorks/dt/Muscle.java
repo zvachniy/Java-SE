@@ -1,4 +1,4 @@
-package dt;
+package spbuWorks.dt;
 
 public class Muscle {
     public void strain(){

@@ -1,6 +1,4 @@
-package dt;
-
-import dt.Foot;
+package spbuWorks.dt;
 
 public class Leg {
     public void Step() {

@@ -1,4 +1,4 @@
-package dt;
+package spbuWorks.dt;
 
 public class Foot {
     public void bend()
