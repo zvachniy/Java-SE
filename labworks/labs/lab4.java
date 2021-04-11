@@ -4,20 +4,16 @@ import java.util.Scanner;
 
 public class lab4 {
     public static void main(String[] args) {
-        Scanner scannerA = new Scanner(System.in);
-        Scanner scannerB = new Scanner(System.in);
-        Scanner scannerC = new Scanner(System.in);
-        double a, b, c;
-        double x1, x2;
-        double Discriminant;
+        Scanner scanner = new Scanner(System.in);
+        double a, b, c, x1,x2,Discriminant;
         System.out.println("Введите a, b, c для решения квадратного уравнения вида a*x^2+b*x+c=0");
-        System.out.println("a, b и c могут вводиться вида 1 или -16 или 0,9787");
+        System.out.println("a, b и c могут вводиться вида 1 или -16 или 0,9787 или например 1 -6 9");
         System.out.print("Введите a: ");
-        a = scannerA.nextDouble();
+        a = scanner.nextDouble();
         System.out.print("Введите b: ");
-        b = scannerB.nextDouble();
+        b = scanner.nextDouble();
         System.out.print("Введите c: ");
-        c = scannerC.nextDouble();
+        c = scanner.nextDouble();
         Discriminant = b * b - 4 * a * c;
         if (Discriminant < 0)
             System.out.println("Корней нет");
