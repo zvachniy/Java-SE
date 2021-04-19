@@ -1,4 +1,4 @@
-package labs;
+package labs.DragonWorld;
 
 public class Dragon {
 
