@@ -21,8 +21,8 @@ public class Dragon {
     }
 
     public static void fire() {
-        System.out.println("Дракон по имени " + dragon1.name + " ударил дракона по имени " + dragon2.name);
-        System.out.println("Нанесено " + dragon1.tooth + " урона");
+        System.out.println("Дракон по имени " + dragon1.getName() + " ударил дракона по имени " + dragon2.getName());
+        System.out.println("Нанесено " + dragon1.getTooth() + " урона");
     }
 
     public static void main(String[] args) {
