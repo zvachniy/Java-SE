@@ -1,7 +1,18 @@
 package spbuWorks.dt;
 public class Start {
     public static void main(String[] args) {
-        Alice A = new Alice();
-        A.walk();
+        Hero drakula= new Hero("Дракула");
+        Hero vanHelsing=new Hero ("Ван Хельсинг");
+
+        //назначение друг друга врагами
+        drakula.assignEnemy(vanHelsing);
+        vanHelsing.assignEnemy(drakula);
+
+        drakula.setPriority(10);
+        vanHelsing.setPriority(1);
+
+        //запуск потоков
+        drakula.start();
+        vanHelsing.start();
     }
 }
