@@ -15,7 +15,7 @@ public class Dragon {
         return name;
     }
 
-    public Dragon(String name, int tooth) {
+    public  Dragon(String name, int tooth) {
         this.name = name;
         this.tooth = tooth;
     }

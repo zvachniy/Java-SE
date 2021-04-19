@@ -1,6 +1,10 @@
 package labs.DragonWorld;
 
-public abstract class SilverWings implements Flyable {
+public abstract class SilverWings extends Dragon implements Flyable {
+
+    public SilverWings(String name, int tooth) {
+        super(name, tooth);
+    }
 
     public void SilverWings() {
     }
@@ -10,7 +14,7 @@ public abstract class SilverWings implements Flyable {
     }
 
     public static void main(String[] args) {
-        SilverWings dragon3 = new SilverWings() {
+        SilverWings dragon3 = new SilverWings("Среброкрыл", 150) {
 
             @Override
             public void Fly() {
