@@ -14,10 +14,4 @@ public class TimeKeeper extends Dragon implements Flyable, MindControlable {
     public void MindControl() {
         System.out.println("Так же, Бронзовые драконы Warcraft III имели заклинание на контроль разума, поэтому ты слышишь этот голос в своей голове, смертный");
     }
-
-    public static void main(String[] args) {
-        TimeKeeper dragon5=new TimeKeeper("Хроми",75);
-        dragon5.Fly();
-        dragon5.MindControl();
-    }
 }
