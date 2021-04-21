@@ -14,4 +14,10 @@ public class TimeKeeper extends Dragon implements Flyable, MindControlable {
     public void MindControl() {
         System.out.println("Так же, Бронзовые драконы Warcraft III имели заклинание на контроль разума, поэтому ты слышишь этот голос в своей голове, смертный");
     }
+
+    @Override
+    public void ulta() {
+        System.out.println("Мы могли бы увидеть ульт Дракона "+name+" Хранителя времени. Но он не будет, ибо слишком много чести, смертный");
+        System.out.println();
+    }
 }

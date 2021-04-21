@@ -6,6 +6,13 @@ public class ShadowWhisper extends Dragon implements MindControlable {
     }
 
     @Override
+    public void ulta() {
+        MindControl();
+        System.out.println("Это ульта Шептуна Тени по имени "+name);
+        System.out.println();
+    }
+
+    @Override
     public void MindControl() {
         System.out.println("Я в твоей голове");
     }
