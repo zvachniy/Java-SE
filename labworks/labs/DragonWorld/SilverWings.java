@@ -1,27 +1,19 @@
 package labs.DragonWorld;
 
-public abstract class SilverWings extends Dragon implements Flyable {
+public class SilverWings extends Dragon implements Flyable {
 
     public SilverWings(String name, int tooth) {
         super(name, tooth);
     }
 
-    public void SilverWings() {
-    }
 
-    public void fly() {
-        System.out.println("   Взмахни крыльями серебряными");
+    @Override
+    public void Fly() {
+        System.out.println("Взмахни крыльями цвета Луносвета");
     }
 
     public static void main(String[] args) {
-        SilverWings dragon3 = new SilverWings("Среброкрыл", 150) {
-
-            @Override
-            public void Fly() {
-
-            }
-        };
-        dragon3.fly();
+        SilverWings dragon3 = new SilverWings("Среброкрыл", 150);
+        dragon3.Fly();
     }
-
 }
