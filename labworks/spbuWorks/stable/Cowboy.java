@@ -1,11 +1,9 @@
 package spbuWorks.stable;
 
-import java.util.Random;
-
 public class Cowboy extends Thread {
     public void run() {
         try {
-            Random t = new Random();
+
             while (true) {
                 Thread.sleep(50);
                 synchronized (Stable.class) {   //следующий блок делается если никого нет
