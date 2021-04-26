@@ -29,8 +29,8 @@ public class List {
         while (index != null) {
             if (firstOrder == orderElement) {
                 r = index.value;
-                index.value=0;
-
+                index.value = 0;
+                Element element = null;
                 //index = null;
                 break;
             }
@@ -39,11 +39,10 @@ public class List {
         }
         System.out.print(" FIRST VALUE ---->");
         return r;
-
     }
 
     public int remove(int value) {
-        int removed ;
+        int removed;
         removed = value;
         Element index = head;
         while (index != null) {
@@ -55,7 +54,6 @@ public class List {
                 break;
             } else
                 index = index.element;
-
         }
         return removed;
     }
