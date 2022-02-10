@@ -1,8 +1,16 @@
-package labs.MatrixHasYou;
+package postexam;
 
 import java.util.Random;
 
-public class Matrix {
+public class MatrixHasYou {
+    public static void main(String[] args){
+        Matrix matrix1 = new Matrix(1, 4);
+        Matrix matrix2 = new Matrix(3, 4);
+        matrix1.addMatrix(matrix2);
+    }
+}
+
+class Matrix {
     private int rowNumber;
     private int colNumber;
     private int [][] matrix;
@@ -22,8 +30,6 @@ public class Matrix {
         this.matrix = matrix;
         printMatrix();
     }
-
-//    private int [][] matrix = new int[rowNumber][colNumber];
 
     public void resetRandomMatrix() {
         System.out.println("\nЗаполняем матрицу случайными значениями..");
